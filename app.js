@@ -7,8 +7,6 @@ app.use(express.json());
 
 
 app.use('/items', itemRoutes)
-//app.get('/favicon.ico', (req, res) => res.sendStatus(204))
-
 
 
 // 404 handler
